@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="homepage.css">
+  <title>Ngelamar - Lowongan Kerja</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1><a style="text-decoration: none;" href="index.html">Ngelamar</a></h1>
+        </div>
+        <nav class="header-right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="container-search">
+        <h2 class="search-title">Cari Pekerjaan </h2>
+        <form>
+            <input type="text" class="search-input" placeholder="Masukkan kata kunci" />
+            <br />
+            <input type="submit" class="search-button" value="Cari" />
+        </form>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="lamar">
+    <div class="lamar-content">
+        <div class="lamar-text">
+            <h2>Cek Lowongan Kerja Eksklusif</h2>
+            <p>dari PT. Mitra Sejahtera di berbagai posisi</p>
+        </div>
+        
+        <div class="button-lamar">
+            <a href="#" class="btn">Lamar Sekarang</a>
+        </div>
+        
+    </div>
+
+    <div class="image-content">
+        <div class="image-on">
+          <div class="img-center">
+            <img src="astronot.png">
+          </div>
+  
+          <div class="image2">
+            <img src="tropy.png">
+          </div>
+  
+          <div class="image3">
+            <img src="clock.png">
+          </div>
+  
+          <div class="image4">
+            <img src="chart.png">
+          </div>
+  
+          <div class="image5">
+            <img src="btc.png">
+          </div>
+      
+        </div>
+  
+      </div>
+  </section>
+
+  <div class="jobs">
+    <div class="tabs">
+        <button class="tab active" onclick="openTab(0)">Pekerjaan Populer</button>
+        <button class="tab" onclick="openTab(1)">Terbaik untuk Anda</button>
+    </div>
+
+    <div class="tab-content active" id="tab1">
+        <div class="card-1">
+            <div class="card-details">
+              <p class="text-title">Front End Developer</p>
+              <p class="text-body">Perusahaan ABC</p>
+            </div>
+            <button class="card-button">More info</button>
+        </div>
+
+        <div class="card-2">
+            <div class="card-details">
+                <p class="text-title">Front End Developer</p>
+                <p class="text-body">Perusahaan ABC</p>
+              </div>
+              <button class="card-button">More info</button>
+        </div>
+
+        <div class="card-3">
+            <div class="card-details">
+                <p class="text-title">Front End Developer</p>
+                <p class="text-body">Perusahaan ABC</p>
+              </div>
+              <button class="card-button">More info</button>
+        </div>
+    </div>
+
+    <div class="tab-content" id="tab2">
+        <section class="recommended-jobs">
+            <ul>
+            <li>
+                <h4>Product Manager</h4>
+                <p>Perusahaan DEF</p>
+            </li>
+            <li>
+                <h4>Data Scientist</h4>
+                <p>Perusahaan GHI</p>
+            </li>
+            <li>
+                <h4>UI/UX Designer</h4>
+                <p>Perusahaan JKL</p>
+            </li>
+            </ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+  </div>
+
+  <section class="more-jobs">
+    <a href="#" class="btn">Cari Pekerjaan Lain</a>
+  </section>
+</body>
+</html>
